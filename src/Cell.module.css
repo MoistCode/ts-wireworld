@@ -1,0 +1,26 @@
+.cell {
+  height: 100%;
+  width: 100%;
+  border: darkgray 1px solid;
+}
+
+.cell[data-state="empty"] {
+  background-color: black;
+}
+
+.cell[data-state="head"] {
+  background-color: blue;
+}
+
+.cell[data-state="tail"] {
+  background-color: red;
+}
+
+.cell[data-state="conductor"] {
+  background-color: yellow;
+}
+
+.cell:hover {
+  cursor: pointer;
+  background-color: green;
+}
